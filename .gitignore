@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+.Python
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large ML model/data files
+*.pkl
+fake_news_model.pkl
+tfidf_vectorizer.pkl
+*.h5
+*.pt
+*.onnx
+
+# Data folders (large datasets)
+ISOT/
+Fake News/
+*.csv
+
+# Logs
+*.log
+
+# Environment
+.env
